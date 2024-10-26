@@ -24,6 +24,14 @@ body {
     margin-bottom: 20px;
 }
 
+/* Style for the password label */
+.password-label {
+    color: #ff69b4; /* Soft pink color */
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
 /* Style for the text field */
 .text-field {
     padding: 10px;
