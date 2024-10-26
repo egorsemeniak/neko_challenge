@@ -30,3 +30,7 @@ body {
     border: 1px solid #ccc;
     border-radius: 5px;
 }
+#result-message {
+    margin-top: 20px;
+    font-weight: bold;
+}
