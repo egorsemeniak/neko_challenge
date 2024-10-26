@@ -88,7 +88,7 @@ p {
 
 /* Style for the pigeoncat image */
 .pigeoncat-image {
-    max-width: 50%; /* Resize as needed */
+    max-width: 16.67%; /* Resize as needed */
     height: auto;
     border-radius: 10px;
 }
