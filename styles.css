@@ -1,4 +1,4 @@
-/* Set a soft pastel pink background */
+/* Set a soft pastel pink background for the main page */
 body {
     background-color: #ffe4e1;
     font-family: Arial, sans-serif;
@@ -9,6 +9,18 @@ body {
     margin: 0;
 }
 
+/* Background for the pigeoncat page */
+body.pigeoncat-page {
+    background-color: #fffacd; /* Soft pastel yellow */
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
 /* Center the content both horizontally and vertically */
 .content {
     display: flex;
@@ -17,7 +29,7 @@ body {
     text-align: center;
 }
 
-/* Style for the image, making it three times smaller */
+/* Style for the main page image, making it three times smaller */
 .header-image {
     max-width: 33.33%; /* scales the image to one-third of its original width */
     height: auto;
@@ -59,4 +71,24 @@ button {
 #result-message {
     margin-top: 20px;
     font-weight: bold;
+}
+
+/* Styling for the congratulatory message on the pigeoncat page */
+h1 {
+    color: #333333;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #333333;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Style for the pigeoncat image */
+.pigeoncat-image {
+    max-width: 50%; /* Resize as needed */
+    height: auto;
+    border-radius: 10px;
 }
