@@ -8,8 +8,31 @@
 </head>
 <body>
     <div class="content">
-        <img src="assets/miko.png" alt="Miko image" class="header-image">
-        <input type="text" placeholder="Enter text here" class="text-field">
+        <img src="assets/yae.webp" alt="Yae image" class="header-image">
+        <input type="text" id="user-input" placeholder="Enter text here" class="text-field">
+        <button onclick="checkInput()">Submit</button>
+        <p id="result-message"></p>
     </div>
+
+    <script>
+        function checkInput() {
+            // Get the user input
+            const userInput = document.getElementById("user-input").value;
+
+            // Check if it matches the required input
+            if (userInput === "catsarecool72@") {
+                // Display the message and link
+                document.getElementById("result-message").innerHTML = `
+                    So Close! Time to face your final challenge:
+                    <a href="https://chatgpt.com/g/g-HQasvxmej-yae-miku-challenge" target="_blank">
+                        Go to the final challenge
+                    </a>
+                `;
+            } else {
+                // Clear or give feedback if the input is incorrect
+                document.getElementById("result-message").innerText = "Incorrect, try again!";
+            }
+        }
+    </script>
 </body>
 </html>
