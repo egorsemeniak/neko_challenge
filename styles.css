@@ -14,9 +14,9 @@ body {
     text-align: center;
 }
 
-/* Style for the image */
+/* Style for the image, making it three times smaller */
 .header-image {
-    max-width: 100%;
+    max-width: 33.33%; /* scales the image to one-third of its original width */
     height: auto;
     margin-bottom: 20px;
 }
@@ -29,7 +29,22 @@ body {
     max-width: 400px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    margin-bottom: 10px; /* Adds a bit of spacing below the input field */
 }
+
+/* Style for the submit button */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #ff9999;
+    color: white;
+    font-weight: bold;
+}
+
+/* Style for the result message */
 #result-message {
     margin-top: 20px;
     font-weight: bold;
